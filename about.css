@@ -1,0 +1,14 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: gray;
+}
+p {
+    color: black;
+}
+body {
+    background-color: gray;
+}
+footer {
+    background-color: #0099ff;
+    padding-bottom: 10px;
+}

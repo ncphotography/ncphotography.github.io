@@ -1,0 +1,15 @@
+body {
+    padding-top: 4rem;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+}
+.gambar {
+    width: 100%;
+    border-radius: 20px;
+}
+.box {
+    padding: 10px;
+}
