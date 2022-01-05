@@ -1,5 +1,5 @@
 body {
-    font-family: 'Shizuru', cursive;
+    font-family: 'Single Day', cursive;
 }
 .banner{
     width: 100%;
@@ -26,7 +26,6 @@ body {
     text-align: center;
 }
 .banner .content h1 {
-    font-family: 'Shizuru', cursive;
     font-family: 'Single Day', cursive;
     margin: 0;
     padding: 0;
@@ -35,6 +34,6 @@ body {
     color: floralwhite;
 }
 p {
-    font-family: 'Shizuru', cursive;
+    font-family: 'Single Day', cursive;
     color: floralwhite;
 }
