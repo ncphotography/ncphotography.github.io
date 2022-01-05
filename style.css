@@ -1,6 +1,6 @@
 body {
     font-family: 'Shizuru', cursive;
-font-family: 'Single Day', cursive;
+    font-family: 'Single Day', cursive;
 }
 .banner{
     width: 100%;
@@ -20,6 +20,8 @@ font-family: 'Single Day', cursive;
     pointer-events: none;
 }
 .banner .content{
+    font-family: 'Shizuru', cursive;
+    font-family: 'Single Day', cursive;
     position: relative;
     z-index: 1;
     max-width: 1000px;
