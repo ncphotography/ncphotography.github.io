@@ -7,6 +7,8 @@ p {
 }
 body {
     background-color: gray;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Single Day', cursive;
 }
 footer {
     background-color: #0099ff;
