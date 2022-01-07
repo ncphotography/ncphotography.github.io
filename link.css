@@ -3,3 +3,7 @@ body {
     padding-top: 20rem;
     background-color: grey;
 }
+.logo {
+    width: 50px;
+    border-radius: 50px;
+}
