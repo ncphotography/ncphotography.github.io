@@ -1,38 +1,108 @@
-.banner{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
-    pointer-events: none;
-}
-.banner .content{
-    position: relative;
-    z-index: 1;
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-}
-.banner .content h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: floralwhite;
-}
-p {
-    color: floralwhite;
-}
 .logo {
     width: 50px;
     border-radius: 50px;
+}
+
+body {
+    background-color: grey;
+    margin-top: 8em;
+}
+ 
+.badan
+{
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    background-color: grey;
+    padding: 20px;
+    overflow: hidden;
+}
+ 
+.badan h2
+{
+    color: dodgerblue;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
+}
+ 
+.tabel-harga
+{
+    float: left;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    width: 300px;
+}
+ 
+.header
+{
+    padding: 17px;
+}
+ 
+.header span
+{
+    display: block;
+    text-align: center;
+}
+ 
+.paket
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ 
+.header-gratis
+{
+    background-color: dodgerblue;
+    color: white;
+}
+ 
+.header-premium
+{
+    background-color:darkorange;
+    color: white;
+}
+ 
+.header-profesional
+{
+    background-color: green;
+    color: white;
+}
+ 
+.tabel-harga ul
+{
+    list-style-type: none;
+}
+ 
+.tabel-harga ul li
+{
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 10px 0 10px;
+}
+ 
+.ruang-tombol
+{
+    padding: 10px;
+}
+ 
+.selengkapnya
+{
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+ 
+.selengkapnya:hover
+{
+    transition-duration: 0.8s;
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
 }
